@@ -23,71 +23,111 @@
 
     <!-- Header - Liberum -->
 
-    <div class="container">
-        <header
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <header class="container">
 
-            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <img src="./img/LogoLiberum.svg" width="150px">
-            </a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="./index.html" class="navbar-brand">
+                    <img src="./img/LogoLiberum.svg" width="150px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html"><i
+                                    class="fas fa-home"></i> Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./escuelas.html"><i class="fas fa-school"></i> Escuelas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-book-open"></i> Contenido
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">1° Grado</a></li>
+                                <li><a class="dropdown-item" href="#">2° Grado</a></li>
+                                <li><a class="dropdown-item" href="#">3° Grado</a></li>
+                                <li><a class="dropdown-item" href="#">4° Grado</a></li>
+                                <li><a class="dropdown-item" href="#">5° Grado</a></li>
+                                <li><a class="dropdown-item" href="#">6° Grado</a></li>
+                                <li><a class="dropdown-item" href="./contenido.html">Ver todo el contenido</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contacto.html" class="nav-link"><i class="fas fa-file-signature"></i>
+                                Contacto</a>
+                        </li>
+                    </ul>
+                    <form>
+                        <button class="btn btn-outline-primary" type="submit">Iniciar Sesión</button>
+                        <button class="btn btn-primary" type="submit">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="./index.html" class="nav-link px-2 link-dark" id="a-header"><i class="fas fa-home"></i> Inicio</i></a></li>
-                <li><a href="./contenido.html" class="nav-link px-2 link-dark" id="a-header"><i class="fas fa-book-open"></i> Contenido</i></a></li>
-                <li><a href="#" class="nav-link px-2 link-dark" id="a-header"><i class="fas fa-school"></i> Escuelas</a></li>
-                <li><a href="./contacto.html" class="nav-link px-2 link-dark" id="a-header"><i class="fas fa-file-signature"></i> Contacto</a></li>
-            </ul>
-
-        </header>
-    </div>
+    </header>
 
     <!-- Main - Liberum -->
 
     <main>
 
-        <div class="container">
+        <div class="container text-center">
 
             <h1>Contenido</h1>
 
-            <p class="lead">Aquí encontrarás los principales contenidos, recopilados y a tus disposición de manera totalmente gratuita.</p>
+            <p class="lead">Aquí encontrarás los principales contenidos, recopilados y a tus disposición de manera
+                totalmente gratuita.</p>
 
             <hr>
 
             <div class="container">
                 <div class="row">
-                  <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/primer-grado.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Primer Grado</h5>
-                          <p class="card-text">Conocimiento del lenguaje, correcta pronunciación, descripción de personas, conocer el abecedario, leer textos breves, dividir palabras en sílabas.</p>
-                          <a href="#" class="btn btn-primary">¡Aprender!</a>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/primer-grado.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Primer Grado</h5>
+                                <p class="card-text">Conocimiento del lenguaje, correcta pronunciación, descripción de
+                                    personas, conocer el abecedario, leer textos breves, dividir palabras en sílabas.
+                                </p>
+                                <a href="#" class="btn btn-primary">¡Aprender!</a>
+                            </div>
                         </div>
-                      </div>
-                      <br>
-                  </div>
-                  <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/segundo-grado.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Segundo Grado</h5>
-                          <p class="card-text">Conocimiento del lenguaje, correcta pronunciación, lectura de frases y oraciones cortas, suma con limite 20, resolvencia de problemas sencillos.</p>
-                          <a href="#" class="btn btn-primary">¡Aprender!</a>
+                        <br>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/segundo-grado.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Segundo Grado</h5>
+                                <p class="card-text">Conocimiento del lenguaje, correcta pronunciación, lectura de
+                                    frases y oraciones cortas, suma con limite 20, resolvencia de problemas sencillos.
+                                </p>
+                                <a href="#" class="btn btn-primary">¡Aprender!</a>
+                            </div>
                         </div>
-                      </div>
-                      <br>
-                  </div>
-                  <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/tercer-grado.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Tercer Grado</h5>
-                          <p class="card-text">Pensamiento abstracto en Matemáticas, suma y resta con límite 100 para resolver problemas matemáticos de lógica de uno o dos pasos utilizando estrategias.</p>
-                          <a href="#" class="btn btn-primary">¡Aprender!</a>
+                        <br>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/tercer-grado.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tercer Grado</h5>
+                                <p class="card-text">Pensamiento abstracto en Matemáticas, suma y resta con límite 100
+                                    para resolver problemas matemáticos de lógica de uno o dos pasos utilizando
+                                    estrategias.</p>
+                                <a href="#" class="btn btn-primary">¡Aprender!</a>
+                            </div>
                         </div>
-                      </div>
-                      <br>
-                  </div>
+                        <br>
+                    </div>
                 </div>
 
                 <br>
@@ -97,38 +137,43 @@
                         <div class="card" style="width: 18rem;">
                             <img src="./img/cuarto-grado.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Cuarto Grado</h5>
-                              <p class="card-text">Conocimiento de las tablas de mutiplicación hasta el 12, y mutiplicación de 10 en 10. Expresar números enteros como fracciones y reconocer fracciones.</p>
-                              <a href="#" class="btn btn-primary">¡Aprender!</a>
+                                <h5 class="card-title">Cuarto Grado</h5>
+                                <p class="card-text">Conocimiento de las tablas de mutiplicación hasta el 12, y
+                                    mutiplicación de 10 en 10. Expresar números enteros como fracciones y reconocer
+                                    fracciones.</p>
+                                <a href="#" class="btn btn-primary">¡Aprender!</a>
                             </div>
-                          </div>
-                          <br>
-                      </div>
-                      <div class="col">
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col">
                         <div class="card" style="width: 18rem;">
                             <img src="./img/quinto-grado.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Quinto Grado</h5>
-                              <p class="card-text">Lectura de material didactico más complejo, incluyendo noticias y otros textos informativos. Amplicación del vocabulario, y evidencia en resúmenes.</p>
-                              <a href="#" class="btn btn-primary">¡Aprender!</a>
+                                <h5 class="card-title">Quinto Grado</h5>
+                                <p class="card-text">Lectura de material didactico más complejo, incluyendo noticias y
+                                    otros textos informativos. Amplicación del vocabulario, y evidencia en resúmenes.
+                                </p>
+                                <a href="#" class="btn btn-primary">¡Aprender!</a>
                             </div>
-                          </div>
-                          <br>
-                      </div>
-                      <div class="col">
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col">
                         <div class="card" style="width: 18rem;">
                             <img src="./img/sexto-grado.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Sexto Grado</h5>
-                              <p class="card-text">Reforzamiento de los temas aprendidos, suma, resta, multiplicación y división, fracciones, resolvencia de problemas matemáticos, números mezclados.</p>
-                              <a href="#" class="btn btn-primary">¡Aprender!</a>
+                                <h5 class="card-title">Sexto Grado</h5>
+                                <p class="card-text">Reforzamiento de los temas aprendidos, suma, resta, multiplicación
+                                    y división, fracciones, resolvencia de problemas matemáticos, números mezclados.</p>
+                                <a href="#" class="btn btn-primary">¡Aprender!</a>
                             </div>
-                          </div>
-                          <br>
-                      </div>
+                        </div>
+                        <br>
+                    </div>
                 </div>
-              </div>
-            
+            </div>
+
         </div>
 
     </main>
@@ -138,22 +183,32 @@
 
     <footer>
         <div class="container">
-           
+
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
                     <span class="text-muted">&copy; 2021 Liberum</span>
                 </div>
 
-                <img src="./img/LogoLiberum.svg" width="80px">
+                <a href="/liberum/index.html" target="blank">
+                    <img src="./img/LogoLiberum.svg" width="80px">
+                </a>
 
-                <img src="./img/logo-sep.png" width="80px">
+                <a href="https://www.gob.mx/sep" target="blank">
+                    <img src="./img/logo-sep.png" width="80px">
+                </a>
 
-                <img src="./img/logo-uaa.png" width="80px">
+                <a href="https://www.uaa.mx" target="blank">
+                    <img src="./img/logo-uaa.png" width="80px">
+                </a>
+
 
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-facebook-square"></i></a></li>
-                    <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-instagram-square"></i></a></li>
-                    <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-youtube-square"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="facebook.com" target="blank"><i id="fb"
+                                class="fab fa-facebook-square"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="instagram.com" target="blank"><i id="ig"
+                                class="fab fa-instagram-square"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="youtube.com" target="blank"><i id="yt"
+                                class="fab fa-youtube-square"></i></a></li>
                 </ul>
             </footer>
 

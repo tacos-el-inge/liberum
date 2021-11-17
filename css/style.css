@@ -4,8 +4,22 @@
     box-sizing: border-box;
 }
 
-a#a-header:hover{
-    color: blue;
+nav#nav-bar-liberum{
+    list-style-type: none;
+}
+
+header#landing-intro{
+    height: 600px;
+    background: url("../img/landing-page.svg") no-repeat center center;
+    background-size: cover;
+}
+
+main .figure{
+    transition: transform .2s;
+}
+
+main .figure:hover{
+    transform: scale(1.1);
 }
 
 footer i#fb:hover{
